@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "product_id": "P001",
+      "name": "Laptop",
+      "price": 75000,
+      "in_stock": true
+    },
+    {
+      "product_id": "P002",
+      "name": "Headphone",
+      "price": 2500,
+      "in_stock": false
+    }
+  ]
+}
