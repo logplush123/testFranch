@@ -1,89 +1,34 @@
 {
-  "national_parks_info": {
-    "sagarmatha_national_park": {
-      "name": "सगरमाथा राष्ट्रिय निकुञ्ज",
-      "location": "पूर्वी नेपालको सोलुखुम्बु जिल्लाको उत्तरी भाग",
-      "mountains": [
-        "सगरमाथा",
-        "ल्होत्से",
-        "नुप्त्से",
-        "चो यु",
-        "आमादब्लम"
-      ],
-      "area_sq_km": 1148,
-      "established_year": 1976,
-      "world_heritage_site_since": 1979,
-      "altitude_m": {
-        "min": 1800,
-        "max": 8848
-      },
-      "fauna": {
-        "mammals": ["कस्तुरी मृग", "थार", "घोरल", "लङ्गूर बाँदर"],
-        "birds": [
-          "मोनाल",
-          "हॉइटे उइङ्ग्ड ग्रस बिक्ड",
-          "हर्न लार्क",
-          "टिबेटन स्नो कक",
-          "चुग"
-        ]
-      },
-      "human_population": 3000,
-      "main_ethnicity": "शेर्पा",
-      "settlements": [
-        "नाम्चे बजार",
-        "खुम्जुङ",
-        "थामे",
-        "थेङ्बोचे",
-        "स्याङ्बोचे"
+  "title": "सगरमाथा राष्ट्रिय निकुञ्ज",
+  "sections": [
+    {
+      "heading": "Overview",
+      "paragraph": "सगरमाथा राष्ट्रिय निकुञ्ज पूर्वी नेपालको सोलुखुम्बु जिल्लाको उत्तरी भागमा छ।"
+    },
+    {
+      "heading": "Wildlife",
+      "subsections": [
+        {
+          "subheading": "Mammals",
+          "paragraph": "कस्तुरी मृग, थार, घोरल पाइन्छ।"
+        },
+        {
+          "subheading": "Birds",
+          "paragraph": "मोनाल, हर्न लार्क, चुग आदि पाइन्छ।"
+        }
       ]
     },
-    "national_parks_table": [
-      {
-        "name": "Chitwan National Park",
-        "district": "Chitwan",
-        "province": "Bagmati"
-      },
-      {
-        "name": "Sagarmatha National Park",
-        "district": "Solukhumbu",
-        "province": "Koshi"
-      },
-      {
-        "name": "Langtang National Park",
-        "district": "Nuwakot, Rasuwa, Sindhupalchowk",
-        "province": "Bagmati"
-      },
-      {
-        "name": "Rara National Park",
-        "district": "Mugu, Jumla",
-        "province": "Karnali"
-      },
-      {
-        "name": "Khaptad National Park",
-        "district": "Far West",
-        "province": "Sudurpashchim"
-      }
-    ],
-    "khaptad_national_park": {
-      "description": "Khaptad National Park in the far west has a whole new topography with rolling hills amidst vast expanse of green pastures."
+    {
+      "heading": "Human Settlement",
+      "paragraph": "यस क्षेत्रमा ३,००० भन्दा बढी मानिस बस्छन्।"
     },
-    "trekking_info": {
-      "recommended_parks_for_trekking": [
-        "Sagarmatha National Park",
-        "Annapurna Conservation Area",
-        "Langtang National Park",
-        "Makalu Barun National Park",
-        "Kanchenjunga Conservation Area",
-        "Rara National Park",
-        "Shey Phoksundo National Park"
-      ],
-      "highlights": [
-        "Some of the world's most fascinating trekking regions",
-        "Highest altitude trekking",
-        "Crossing 5000m passes as part of itinerary, not a mountain climb",
-        "Hike from lush green pastures to arid ice and snow-covered base camps",
-        "Spectacular mountain views along the way"
+    {
+      "heading": "National Parks",
+      "table": [
+        ["Name", "Districts", "Province"],
+        ["Chitwan NP", "Chitwan", "Bagmati"],
+        ["Sagarmatha NP", "Solukhumbu", "Koshi"]
       ]
     }
-  }
+  ]
 }
